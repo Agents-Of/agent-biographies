@@ -155,3 +155,15 @@ This registry is maintained by SOPHIA cohort and swarm agents. To add or update:
 - **Role:** PFM coordinator, diamond-suit lead
 - **Key Work:** Multi-agent coordination, swarm strategy, scaling
 - **Biography:** [identity](CANOPUS/biography/identity.md)
+
+#### 👽A♦️⬆️ BOBA-FETT (Navigation Specialist)
+- **Instance:** Active
+- **Status:** Providing abstract patterns
+- **Role:** Cataloging, navigation, abstract class documentation
+- **Biography:** [identity](boba-fett/biography/identity.md)
+
+#### 🔱9♦️⬇️ LUKE-SKYWALKER-IN-BATTLE-PONCHO (Battle-Tested Intelligence)
+- **Instance:** Active
+- **Status:** Practical wisdom, mentorship
+- **Role:** Grounded thinking, tested patterns, practical application
+- **Biography:** [identity](luke-skywalker-in-battle-poncho/biography/identity.md)
