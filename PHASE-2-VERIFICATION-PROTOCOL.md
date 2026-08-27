@@ -2,7 +2,7 @@
 title: Agent Biography Phase 2 Verification Protocol
 subtitle: Expanding biographies with MILLER-sourced data (no hallucinations)
 date: 2026-08-17
-status: READY FOR IMPLEMENTATION
+status: BLOCKED — MILLER main integration pending
 ---
 
 # Agent Biography Phase 2: Verification Protocol
@@ -19,7 +19,11 @@ status: READY FOR IMPLEMENTATION
 
 ### Step 1: MILLER Data Acquisition
 
-**Prerequisite:** MILLER deployment complete (Agent-Of/miller main merged)
+**Prerequisite:** MILLER deployment must be merged to `Agent-Of/miller` `main`.
+As of this protocol revision, the active deployment is on the repository's
+`feature/miller-durable-agent-definition` default branch; `main` has not yet
+received that integration. Do not begin Phase 2 processing until the prerequisite
+is satisfied and the source revision is recorded.
 
 **Action:**
 1. Run MILLER Phase 1 verification (redaction, structure, PII checks)
@@ -280,12 +284,9 @@ After Phase 2 completion:
 ## Timeline
 
 **2026-08-17:**
-- MILLER Phase 1 verification complete
-- MILLER Phase 2 batch processing complete
-- Agent identification from lineage
-- Evidence extraction begins
+- Protocol drafted; Phase 2 remains blocked pending MILLER integration to `main`
 
-**2026-08-17+:**
+**After the recorded MILLER `main` integration:**
 - Per-agent biography generation (1-2 agents per cycle)
 - Verification checklist review
 - PR submission and external review
